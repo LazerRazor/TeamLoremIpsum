@@ -1,0 +1,20 @@
+{
+    "name": "DAC",
+    "short_name": "DAC",
+    "start_url": ".",
+    "background_color": "blue",
+    "theme_color": "white",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "assets/1dac.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/5dac.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

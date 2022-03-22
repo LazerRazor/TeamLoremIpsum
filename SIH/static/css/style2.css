@@ -1,0 +1,175 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 64.5%;
+}
+
+
+body{
+    position: relative;
+    background-color: #E0F4F7;
+    width: 95%;
+    height: 90vh;
+    font-size: 1.6rem;
+    margin-left: 2.5%;
+    margin-top: 5vh;
+    border: 5px dashed #384547;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+
+/* Input */
+input{
+    padding: 20px;
+}
+
+.nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    top: 0;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.heading-aftreg{
+  font-size: 20px;
+}
+
+.reg-table{
+    width: 40%;
+    height: 90%;
+    background: #CAE7EA;
+    border-radius: 35px;
+}
+
+.table{
+
+    width: 30%;
+    height: 60%;
+    background: #CAE7EA;
+    border-radius: 35px;
+}
+.form-group{
+
+    margin-left: 56px;
+    padding: 40px 20px 10px 0;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+
+
+}
+.posbtn{
+padding-top: 40px;
+}
+
+.btn {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #000000);
+    background-image: -moz-linear-gradient(top, #000000, #000000);
+    background-image: -ms-linear-gradient(top, #000000, #000000);
+    background-image: -o-linear-gradient(top, #000000, #000000);
+    background-image: linear-gradient(to bottom, #000000, #000000);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 7px 50px 20px 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+
+  .btn-aftreg {
+      background: #000000;
+      background-image: -webkit-linear-gradient(top, #000000, #000000);
+      background-image: -moz-linear-gradient(top, #000000, #000000);
+      background-image: -ms-linear-gradient(top, #000000, #000000);
+      background-image: -o-linear-gradient(top, #000000, #000000);
+      background-image: linear-gradient(to bottom, #000000, #000000);
+      -webkit-border-radius: 10;
+      -moz-border-radius: 10;
+      border-radius: 35px;
+      font-family: Georgia;
+      color: #ffffff;
+      font-size: 18px;
+      padding: 12px 50px;
+      text-decoration: none;
+      margin: 0px 10px 0px 10px;
+      cursor: pointer;
+      transition: all 0.3s;
+  }
+
+  .btn-aftreg:hover {
+      background: #3cb0fd;
+      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+      text-decoration: none;
+  }
+
+
+
+
+  .rectangle{
+      width: 50%;
+      height: 500px;
+      background-color: #CAE7EA;
+      padding: 40px;
+      padding-bottom: 10px;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      border-radius: 10px;
+  }
+  .rectangle .txt1{
+      font-size: 3.6rem;
+  }
+  .dac-list{
+      height: 90%;
+      padding: 20px;
+      width: 100%;
+  }
+  .dac-card{
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+  }
+  .dac-card .dac{
+      font-weight: bold;
+      line-height: 2;
+      font-size: 2rem;
+  }
+  .operationsBtns{
+      padding: 40px 0;
+  }

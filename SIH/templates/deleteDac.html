@@ -1,0 +1,31 @@
+{% load static %}
+{% block stylesheets %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style2.css' %}">
+
+{% endblock %}
+{% block content %}
+
+
+    <nav class="nav">  
+        <h3 class="heading">Delete DAC <h3>
+            <a class="btn" href="#"> Home </a>
+      
+    </nav> 
+    <div class="table"> 
+        
+    
+        <div class="form-group">
+            <label for=""> DAC:</label>
+            
+            <input type="text" class="css-input" id="name" name="name" placeholder="Enter DAC"required/>
+        </div>
+        
+        <div class="posbtn">
+            <a class="btn" href="#">  Delete DAC </a>
+        </div>
+    </div>
+
+{% endblock %}

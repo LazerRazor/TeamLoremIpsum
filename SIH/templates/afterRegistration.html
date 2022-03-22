@@ -1,0 +1,25 @@
+{% load static %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{% static 'css/style2.css' %}">
+{% endblock %}
+{% block content %}
+<body>
+   <nav class="nav">
+    <h1 class="heading-aftreg">Welcome, User</h1>
+    <a href="" class="btn-aftreg">Logout</a>
+   </nav>
+    <div class="rectangle">
+        <h3 class="txt1">Your Digital Acess Code</h2>
+            <div class="dac-list">
+                <div class="dac-card">
+                    <p class="dac">DAC: 123456</p>
+                    <p class="address">Address: Lorem ipsum</p>
+                </div>
+            </div>
+            <div class="operationsBtns">
+                <a class="btn-aftreg" href="">Add</a>
+                <a class="btn-aftreg" href="">Update</a>
+                <a class="btn-aftreg" href="">Delete</a>
+            </div>
+    </div>
+{% endblock %}

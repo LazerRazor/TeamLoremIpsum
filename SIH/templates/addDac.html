@@ -1,0 +1,40 @@
+{% load static %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{% static 'css/style2.css' %}">
+    
+{% endblock %}
+{% block content %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <nav class="nav">  
+        <h3 class="heading">Create new DAC <h3>
+        <a class="btn" href="#">  Home </a>
+      
+    </nav>
+       
+
+    <form action="" method="post" class="table"> 
+        <div class="form-group">
+            <label for="name"> Address:</label>
+            <input type="text" class="css-input" id="name" name="name" placeholder="Enter Name" required/>
+        </div>
+        <div class="form-group">
+            <label for="file">  Enter Utility Bill:</label>
+            <input type="file" class="css-input" id="file" name="file" placeholder="Enter file" required/>
+        </div>
+        <div class="form-group">
+            <button onclick="getLocation()">Get Location</button>
+            <input type="hidden" id="lat" name="lat">
+            <input type="hidden" id="long" name="long">
+        </div>
+        <div class="posbtn">
+            <input type="submit" value="Create Dac" class="btn">
+        </div>
+    </form>
+{% endblock %}
+
+{% block script %}
+<script src="{% static 'javascript/script.js' %}"></script>
+{% endblock %}
