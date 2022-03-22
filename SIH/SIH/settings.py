@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'DigitalAddressCode'
+    'DigitalAddressCode',
+    "SIH"
 ]
 
 MIDDLEWARE = [
@@ -79,8 +80,14 @@ WSGI_APPLICATION = 'SIH.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'djongo',
+        'NAME': 'SIH',
+        'ENFORCE_SCHEMA':False,
+        "CLIENT":{
+            'HOST': 'mongodb+srv://test:test@cluster0.incky.mongodb.net/sih?retryWrites=true&w=majority',
+        },
+        'USER':'test',
+        'PASSWORD':'test'
     }
 }
 
